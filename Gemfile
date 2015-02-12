@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
 RAILS_VERSION = '~> 4.1.8'
-
-ruby ENV['GEMFILE_RUBY_VERSION'] if ENV['GEMFILE_RUBY_VERSION']
+ruby '2.1.2'
 
 gem 'actionmailer', RAILS_VERSION
 gem 'actionpack', RAILS_VERSION

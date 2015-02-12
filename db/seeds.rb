@@ -4,9 +4,9 @@ puts "Seeding database"
 puts "-------------------------------"
 
 # Create an initial Admin User
-admin_username = "errbit"
-admin_email = "errbit@#{Errbit::Config.host}"
-admin_pass  = SecureRandom.urlsafe_base64(12)[0,12]
+admin_username = "Unayung"
+admin_email = "unayung@gmail.com"
+admin_pass  = "123123123"
 
 puts "Creating an initial admin user:"
 puts "-- username: #{admin_username}" if Errbit::Config.user_has_username
